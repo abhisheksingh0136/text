@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 # Configuration
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCjIzxSgv48nm6Ww36beoX5Xel3NqKUIsw"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyBE8JLSjjMibRmaIVAQHMj4cBIypqvJ1jw"
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 # Initialize model
 generation_config = {"temperature": 0.9, "top_p": 1, "top_k": 1, "max_output_tokens": 2048}
